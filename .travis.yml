@@ -1,0 +1,22 @@
+language: php
+
+php:
+  - 5.3
+  - 5.4
+  - 5.5
+  - 5.6
+  - hhvm
+
+before_script:
+  - rm -f ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/xdebug.ini
+  - composer update --prefer-source --no-interaction
+
+script: phpunit
+
+matrix:
+  allow_failures:
+    - php: hhvm
+# hhvm will fail until libxml support is added https://github.com/facebook/hhvm/issues/1194
+
+notifications:
+  irc: "irc.freenode.org#jackalope"

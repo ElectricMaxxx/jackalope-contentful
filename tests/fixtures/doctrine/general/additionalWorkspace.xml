@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <table name="phpcr_binarydata">
+    <column>node_id</column>
+    <column>property_name</column>
+    <column>workspace_name</column>
+    <column>idx</column>
+    <column>data</column>
+  </table>
+  <table name="phpcr_workspaces">
+    <column>name</column>
+    <row>
+      <value>tests</value>
+    </row>
+  </table>
+  <table name="phpcr_namespaces">
+    <column>prefix</column>
+    <column>uri</column>
+    <row>
+      <value>new_prefix</value>
+      <value>http://a_new_namespace</value>
+    </row>
+    <row>
+      <value>vlt</value>
+      <value>http://www.day.com/jcr/vault/1.0</value>
+    </row>
+    <row>
+      <value>fn</value>
+      <value>http://www.w3.org/2005/xpath-functions</value>
+    </row>
+    <row>
+      <value>fn_old</value>
+      <value>http://www.w3.org/2004/10/xpath-functions</value>
+    </row>
+    <row>
+      <value>sling</value>
+      <value>http://sling.apache.org/jcr/sling/1.0</value>
+    </row>
+    <row>
+      <value>test</value>
+      <value>http://liip.to/jackalope</value>
+    </row>
+    <row>
+      <value>lx</value>
+      <value>http://flux-cms.org/2.0</value>
+    </row>
+    <row>
+      <value>crx</value>
+      <value>http://www.day.com/crx/1.0</value>
+    </row>
+  </table>
+  <table name="phpcr_nodes">
+    <column>id</column>
+    <column>path</column>
+    <column>parent</column>
+    <column>local_name</column>
+    <column>namespace</column>
+    <column>workspace_name</column>
+    <column>identifier</column>
+    <column>type</column>
+    <column>props</column>
+    <column>depth</column>
+    <column>sort_order</column>
+    <row>
+      <value>352</value>
+      <value>/</value>
+      <value/>
+      <value/>
+      <value/>
+      <value>tests</value>
+      <value>216dee5e-730d-4e4d-b0de-9bf0df82c6df</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sv:node xmlns:crx="http://www.day.com/crx/1.0"xmlns:lx="http://flux-cms.org/2.0"xmlns:test="http://liip.to/jackalope"xmlns:mix="http://www.jcp.org/jcr/mix/1.0"xmlns:sling="http://sling.apache.org/jcr/sling/1.0"xmlns:nt="http://www.jcp.org/jcr/nt/1.0"xmlns:fn_old="http://www.w3.org/2004/10/xpath-functions"xmlns:fn="http://www.w3.org/2005/xpath-functions"xmlns:vlt="http://www.day.com/jcr/vault/1.0"xmlns:xs="http://www.w3.org/2001/XMLSchema"xmlns:new_prefix="http://a_new_namespace"xmlns:jcr="http://www.jcp.org/jcr/1.0"xmlns:sv="http://www.jcp.org/jcr/sv/1.0"xmlns:rep="internal" /&gt;</value>
+      <value>0</value>
+      <value>0</value>
+    </row>
+    <row>
+      <value>353</value>
+      <value>/tests_additional_workspace</value>
+      <value>/</value>
+      <value>tests_additional_workspace</value>
+      <value/>
+      <value>tests</value>
+      <value>9b0c5cee-2eee-4504-b8b2-a960b7d75abc</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>1</value>
+      <value>351</value>
+    </row>
+    <row>
+      <value>354</value>
+      <value>/tests_additional_workspace/testWorkspaceCloneNonCorresponding</value>
+      <value>/tests_additional_workspace</value>
+      <value>testWorkspaceCloneNonCorresponding</value>
+      <value/>
+      <value>tests</value>
+      <value>7f7053b6-139d-4d79-bb40-a4283ebcc087</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>352</value>
+    </row>
+    <row>
+      <value>355</value>
+      <value>/tests_additional_workspace/testWorkspaceCloneNonCorresponding/destRemoveExisting</value>
+      <value>/tests_additional_workspace/testWorkspaceCloneNonCorresponding</value>
+      <value>destRemoveExisting</value>
+      <value/>
+      <value>tests</value>
+      <value>f8019868-3533-4519-a077-9c8601950627</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="jcr:mixinTypes" sv:type="name" sv:multi-valued="1"&gt;&lt;sv:value length="17"&gt;mix:referenceable&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>353</value>
+    </row>
+    <row>
+      <value>356</value>
+      <value>/tests_additional_workspace/testWorkspaceCloneNonCorresponding/destNoRemoveExisting</value>
+      <value>/tests_additional_workspace/testWorkspaceCloneNonCorresponding</value>
+      <value>destNoRemoveExisting</value>
+      <value/>
+      <value>tests</value>
+      <value>9aee563c-b5b7-44f7-a16d-f94116f4dfba</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="jcr:mixinTypes" sv:type="name" sv:multi-valued="1"&gt;&lt;sv:value length="17"&gt;mix:referenceable&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>354</value>
+    </row>
+    <row>
+      <value>357</value>
+      <value>/tests_additional_workspace/testWorkspaceCloneReferenceable</value>
+      <value>/tests_additional_workspace</value>
+      <value>testWorkspaceCloneReferenceable</value>
+      <value/>
+      <value>tests</value>
+      <value>a69bc21f-1788-41f2-a9e2-7c5a2459c5d3</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>355</value>
+    </row>
+    <row>
+      <value>358</value>
+      <value>/tests_additional_workspace/testWorkspaceCloneReferenceable/destExistingNode</value>
+      <value>/tests_additional_workspace/testWorkspaceCloneReferenceable</value>
+      <value>destExistingNode</value>
+      <value/>
+      <value>tests</value>
+      <value>a6e94d5f-6aee-44c8-878e-afca80d3e41c</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="jcr:mixinTypes" sv:type="name" sv:multi-valued="1"&gt;&lt;sv:value length="17"&gt;mix:referenceable&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>356</value>
+    </row>
+  </table>
+</dataset>

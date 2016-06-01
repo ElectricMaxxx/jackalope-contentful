@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <table name="phpcr_binarydata">
+    <column>node_id</column>
+    <column>property_name</column>
+    <column>workspace_name</column>
+    <column>idx</column>
+    <column>data</column>
+  </table>
+  <table name="phpcr_workspaces">
+    <column>name</column>
+    <row>
+      <value>tests</value>
+    </row>
+  </table>
+  <table name="phpcr_namespaces">
+    <column>prefix</column>
+    <column>uri</column>
+    <row>
+      <value>vlt</value>
+      <value>http://www.day.com/jcr/vault/1.0</value>
+    </row>
+    <row>
+      <value>fn_old</value>
+      <value>http://www.w3.org/2004/10/xpath-functions</value>
+    </row>
+    <row>
+      <value>fn</value>
+      <value>http://www.w3.org/2005/xpath-functions</value>
+    </row>
+    <row>
+      <value>crx</value>
+      <value>http://www.day.com/crx/1.0</value>
+    </row>
+  </table>
+  <table name="phpcr_nodes">
+    <column>id</column>
+    <column>path</column>
+    <column>parent</column>
+    <column>local_name</column>
+    <column>namespace</column>
+    <column>workspace_name</column>
+    <column>identifier</column>
+    <column>type</column>
+    <column>props</column>
+    <column>depth</column>
+    <column>sort_order</column>
+    <row>
+      <value>275</value>
+      <value>/</value>
+      <value/>
+      <value/>
+      <value/>
+      <value>tests</value>
+      <value>4996409f-f020-49be-9ed3-60225c20bf92</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sv:node xmlns:crx="http://www.day.com/crx/1.0"xmlns:lx="http://flux-cms.org/2.0"xmlns:test="http://liip.to/jackalope"xmlns:mix="http://www.jcp.org/jcr/mix/1.0"xmlns:sling="http://sling.apache.org/jcr/sling/1.0"xmlns:nt="http://www.jcp.org/jcr/nt/1.0"xmlns:fn_old="http://www.w3.org/2004/10/xpath-functions"xmlns:fn="http://www.w3.org/2005/xpath-functions"xmlns:vlt="http://www.day.com/jcr/vault/1.0"xmlns:xs="http://www.w3.org/2001/XMLSchema"xmlns:new_prefix="http://a_new_namespace"xmlns:jcr="http://www.jcp.org/jcr/1.0"xmlns:sv="http://www.jcp.org/jcr/sv/1.0"xmlns:rep="internal" /&gt;</value>
+      <value>0</value>
+      <value>0</value>
+    </row>
+    <row>
+      <value>276</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>/</value>
+      <value>tests_write_combined_manipulation</value>
+      <value/>
+      <value>tests</value>
+      <value>0c2049d6-43ca-4cb0-869d-0c332c92f182</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="jcr:created" sv:type="date" sv:multi-valued="0"&gt;&lt;sv:value length="32"&gt;2016-06-01T21:14:11.000000+00:00&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>1</value>
+      <value>274</value>
+    </row>
+    <row>
+      <value>277</value>
+      <value>/tests_write_combined_manipulation/testAddAndRemove</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testAddAndRemove</value>
+      <value/>
+      <value>tests</value>
+      <value>bab5bbfa-9fd8-4208-932b-b73bc5a0e660</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>275</value>
+    </row>
+    <row>
+      <value>278</value>
+      <value>/tests_write_combined_manipulation/testAddAndRemoveProperty</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testAddAndRemoveProperty</value>
+      <value/>
+      <value>tests</value>
+      <value>98168be9-114b-4bff-b4a8-ee476a8e1d48</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>276</value>
+    </row>
+    <row>
+      <value>279</value>
+      <value>/tests_write_combined_manipulation/testRemovePropertyAndNode</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testRemovePropertyAndNode</value>
+      <value/>
+      <value>tests</value>
+      <value>12df1ef0-d8fc-464c-8669-eec138073da2</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="prop" sv:type="string" sv:multi-valued="0"&gt;&lt;sv:value length="9"&gt;Testvalue&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>277</value>
+    </row>
+    <row>
+      <value>280</value>
+      <value>/tests_write_combined_manipulation/testRemoveAndAdd</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testRemoveAndAdd</value>
+      <value/>
+      <value>tests</value>
+      <value>400a6748-ec5e-4a85-ad20-0c903a022758</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>278</value>
+    </row>
+    <row>
+      <value>281</value>
+      <value>/tests_write_combined_manipulation/testRemoveAndAdd/child</value>
+      <value>/tests_write_combined_manipulation/testRemoveAndAdd</value>
+      <value>child</value>
+      <value/>
+      <value>tests</value>
+      <value>9571605f-59f1-4aad-aaa5-0ab60e16990b</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>279</value>
+    </row>
+    <row>
+      <value>282</value>
+      <value>/tests_write_combined_manipulation/testRemoveSaveAndAdd</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testRemoveSaveAndAdd</value>
+      <value/>
+      <value>tests</value>
+      <value>b2fc8986-3796-4700-bdce-c3e8227eee20</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>280</value>
+    </row>
+    <row>
+      <value>283</value>
+      <value>/tests_write_combined_manipulation/testRemoveSaveAndAdd/child</value>
+      <value>/tests_write_combined_manipulation/testRemoveSaveAndAdd</value>
+      <value>child</value>
+      <value/>
+      <value>tests</value>
+      <value>82ac273a-a1da-457f-8f94-f934771673e3</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>281</value>
+    </row>
+    <row>
+      <value>284</value>
+      <value>/tests_write_combined_manipulation/testRemoveAndAddAndRemove</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testRemoveAndAddAndRemove</value>
+      <value/>
+      <value>tests</value>
+      <value>42573b8b-9e84-4ae8-9e09-9a228019d46b</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>282</value>
+    </row>
+    <row>
+      <value>285</value>
+      <value>/tests_write_combined_manipulation/testRemoveAndAddAndRemove/child</value>
+      <value>/tests_write_combined_manipulation/testRemoveAndAddAndRemove</value>
+      <value>child</value>
+      <value/>
+      <value>tests</value>
+      <value>283a7ceb-cebe-47fd-b377-e78e172a56af</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>283</value>
+    </row>
+    <row>
+      <value>286</value>
+      <value>/tests_write_combined_manipulation/testAddAndRemoveAndAdd</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testAddAndRemoveAndAdd</value>
+      <value/>
+      <value>tests</value>
+      <value>eec435b4-4a89-47d6-bade-9ec73c5ab99e</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>284</value>
+    </row>
+    <row>
+      <value>287</value>
+      <value>/tests_write_combined_manipulation/testRemoveAndAddToplevelNode</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testRemoveAndAddToplevelNode</value>
+      <value/>
+      <value>tests</value>
+      <value>5086798a-e6ca-4dec-b9fa-3885466a4eb4</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>285</value>
+    </row>
+    <row>
+      <value>288</value>
+      <value>/tests_write_combined_manipulation/testRemoveAndAddAndRemoveToplevelNode</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testRemoveAndAddAndRemoveToplevelNode</value>
+      <value/>
+      <value>tests</value>
+      <value>db68fe9d-6342-44de-90b7-7dcd27a0a663</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>286</value>
+    </row>
+    <row>
+      <value>289</value>
+      <value>/tests_write_combined_manipulation/testRemoveAndMove</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testRemoveAndMove</value>
+      <value/>
+      <value>tests</value>
+      <value>2bff132f-dfe1-4864-9214-551500caf0ad</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>287</value>
+    </row>
+    <row>
+      <value>290</value>
+      <value>/tests_write_combined_manipulation/testRemoveAndMove/other</value>
+      <value>/tests_write_combined_manipulation/testRemoveAndMove</value>
+      <value>other</value>
+      <value/>
+      <value>tests</value>
+      <value>5b5f6732-e6a3-4633-9448-b82db382463f</value>
+      <value>nt:folder</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="9"&gt;nt:folder&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>288</value>
+    </row>
+    <row>
+      <value>291</value>
+      <value>/tests_write_combined_manipulation/testRemoveAndMove/parent</value>
+      <value>/tests_write_combined_manipulation/testRemoveAndMove</value>
+      <value>parent</value>
+      <value/>
+      <value>tests</value>
+      <value>ae580c9d-b7c1-4193-b643-32f899e14ca6</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>289</value>
+    </row>
+    <row>
+      <value>292</value>
+      <value>/tests_write_combined_manipulation/testRemoveAndMove/parent/child</value>
+      <value>/tests_write_combined_manipulation/testRemoveAndMove/parent</value>
+      <value>child</value>
+      <value/>
+      <value>tests</value>
+      <value>472c5820-a6bc-4a3c-9cf9-6bcd596e2be7</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>4</value>
+      <value>290</value>
+    </row>
+    <row>
+      <value>293</value>
+      <value>/tests_write_combined_manipulation/testAddAndChildAddAndMove</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testAddAndChildAddAndMove</value>
+      <value/>
+      <value>tests</value>
+      <value>072ae8f7-0428-42af-9e64-1badc6b75d65</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>291</value>
+    </row>
+    <row>
+      <value>294</value>
+      <value>/tests_write_combined_manipulation/testAddAndChildAddAndMove/existing</value>
+      <value>/tests_write_combined_manipulation/testAddAndChildAddAndMove</value>
+      <value>existing</value>
+      <value/>
+      <value>tests</value>
+      <value>652082be-a900-4a72-a500-d00099c40b93</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>292</value>
+    </row>
+    <row>
+      <value>295</value>
+      <value>/tests_write_combined_manipulation/testAddAndChildAddAndMove/node</value>
+      <value>/tests_write_combined_manipulation/testAddAndChildAddAndMove</value>
+      <value>node</value>
+      <value/>
+      <value>tests</value>
+      <value>75c5a036-231f-4a4b-a50a-20f778ed2e2f</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>293</value>
+    </row>
+    <row>
+      <value>296</value>
+      <value>/tests_write_combined_manipulation/testRemoveMoveRemove</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testRemoveMoveRemove</value>
+      <value/>
+      <value>tests</value>
+      <value>17510aeb-15d4-4019-b6f3-349d8ad25054</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>294</value>
+    </row>
+    <row>
+      <value>297</value>
+      <value>/tests_write_combined_manipulation/testRemoveMoveRemove/src</value>
+      <value>/tests_write_combined_manipulation/testRemoveMoveRemove</value>
+      <value>src</value>
+      <value/>
+      <value>tests</value>
+      <value>b6cbefa8-6557-415d-9d38-8ccfca5d70fb</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>295</value>
+    </row>
+    <row>
+      <value>298</value>
+      <value>/tests_write_combined_manipulation/testRemoveMoveRemove/src/parent</value>
+      <value>/tests_write_combined_manipulation/testRemoveMoveRemove/src</value>
+      <value>parent</value>
+      <value/>
+      <value>tests</value>
+      <value>155e2d34-6f48-4592-a4c8-80dfb15fc3b7</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>4</value>
+      <value>296</value>
+    </row>
+    <row>
+      <value>299</value>
+      <value>/tests_write_combined_manipulation/testRemoveMoveRemove/src/parent/child</value>
+      <value>/tests_write_combined_manipulation/testRemoveMoveRemove/src/parent</value>
+      <value>child</value>
+      <value/>
+      <value>tests</value>
+      <value>77abb0e1-83eb-4f0f-bb4c-159e6c04493d</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>5</value>
+      <value>297</value>
+    </row>
+    <row>
+      <value>300</value>
+      <value>/tests_write_combined_manipulation/testMoveRemovepropertyMove</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testMoveRemovepropertyMove</value>
+      <value/>
+      <value>tests</value>
+      <value>79048fb1-1875-4a29-b503-1eef4df0600e</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>298</value>
+    </row>
+    <row>
+      <value>301</value>
+      <value>/tests_write_combined_manipulation/testMoveRemovepropertyMove/src</value>
+      <value>/tests_write_combined_manipulation/testMoveRemovepropertyMove</value>
+      <value>src</value>
+      <value/>
+      <value>tests</value>
+      <value>679ca39e-a3a5-469a-9a76-776521716e7a</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>299</value>
+    </row>
+    <row>
+      <value>302</value>
+      <value>/tests_write_combined_manipulation/testMoveRemovepropertyMove/src/parent</value>
+      <value>/tests_write_combined_manipulation/testMoveRemovepropertyMove/src</value>
+      <value>parent</value>
+      <value/>
+      <value>tests</value>
+      <value>6392257f-5400-4e68-9bae-59dd548ca87d</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>4</value>
+      <value>300</value>
+    </row>
+    <row>
+      <value>303</value>
+      <value>/tests_write_combined_manipulation/testMoveRemovepropertyMove/src/parent/child</value>
+      <value>/tests_write_combined_manipulation/testMoveRemovepropertyMove/src/parent</value>
+      <value>child</value>
+      <value/>
+      <value>tests</value>
+      <value>f7181c5c-c3af-44d5-9c18-70dca149a009</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="test" sv:type="string" sv:multi-valued="0"&gt;&lt;sv:value length="5"&gt;value&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>5</value>
+      <value>301</value>
+    </row>
+    <row>
+      <value>304</value>
+      <value>/tests_write_combined_manipulation/testLoadchildMovedNode</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testLoadchildMovedNode</value>
+      <value/>
+      <value>tests</value>
+      <value>93025db0-3ae3-417b-bbef-3c0dbad6dab7</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>302</value>
+    </row>
+    <row>
+      <value>305</value>
+      <value>/tests_write_combined_manipulation/testLoadchildMovedNode/src</value>
+      <value>/tests_write_combined_manipulation/testLoadchildMovedNode</value>
+      <value>src</value>
+      <value/>
+      <value>tests</value>
+      <value>300d42ec-6848-4a75-b3f6-236f99867757</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>303</value>
+    </row>
+    <row>
+      <value>306</value>
+      <value>/tests_write_combined_manipulation/testLoadchildMovedNode/src/parent</value>
+      <value>/tests_write_combined_manipulation/testLoadchildMovedNode/src</value>
+      <value>parent</value>
+      <value/>
+      <value>tests</value>
+      <value>43e633b2-46a5-45ad-9875-80b0f03b95f3</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>4</value>
+      <value>304</value>
+    </row>
+    <row>
+      <value>307</value>
+      <value>/tests_write_combined_manipulation/testLoadchildMovedNode/src/parent/child</value>
+      <value>/tests_write_combined_manipulation/testLoadchildMovedNode/src/parent</value>
+      <value>child</value>
+      <value/>
+      <value>tests</value>
+      <value>42dc18d1-e768-4d8d-bb39-f943ebb9c287</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>5</value>
+      <value>305</value>
+    </row>
+    <row>
+      <value>308</value>
+      <value>/tests_write_combined_manipulation/testSessionHasPendingChanges</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testSessionHasPendingChanges</value>
+      <value/>
+      <value>tests</value>
+      <value>e6f44d00-9dec-466f-a926-272bd23ebd42</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="prop" sv:type="string" sv:multi-valued="0"&gt;&lt;sv:value length="3"&gt;Old&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>306</value>
+    </row>
+    <row>
+      <value>309</value>
+      <value>/tests_write_combined_manipulation/testSimpleSessionRefresh</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testSimpleSessionRefresh</value>
+      <value/>
+      <value>tests</value>
+      <value>417fb38f-b9e7-4f84-bc0c-b417fd44c98e</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="prop" sv:type="string" sv:multi-valued="0"&gt;&lt;sv:value length="3"&gt;Old&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>307</value>
+    </row>
+    <row>
+      <value>310</value>
+      <value>/tests_write_combined_manipulation/testSimpleSessionRefreshKeepChanges</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testSimpleSessionRefreshKeepChanges</value>
+      <value/>
+      <value>tests</value>
+      <value>abb4b720-bb27-4c99-bb13-de51f7aed81e</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="prop" sv:type="string" sv:multi-valued="0"&gt;&lt;sv:value length="3"&gt;Old&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="mod" sv:type="string" sv:multi-valued="0"&gt;&lt;sv:value length="3"&gt;Old&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>308</value>
+    </row>
+    <row>
+      <value>311</value>
+      <value>/tests_write_combined_manipulation/testRemoveSessionRefresh</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testRemoveSessionRefresh</value>
+      <value/>
+      <value>tests</value>
+      <value>7d804052-1be5-4ee2-847b-0a9e3abb8d13</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="prop" sv:type="string" sv:multi-valued="0"&gt;&lt;sv:value length="3"&gt;Old&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>309</value>
+    </row>
+    <row>
+      <value>312</value>
+      <value>/tests_write_combined_manipulation/testRemoveSessionRefresh/child</value>
+      <value>/tests_write_combined_manipulation/testRemoveSessionRefresh</value>
+      <value>child</value>
+      <value/>
+      <value>tests</value>
+      <value>a44139e3-0720-4cf5-ad35-6b2bab6e552d</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>310</value>
+    </row>
+    <row>
+      <value>313</value>
+      <value>/tests_write_combined_manipulation/testRemoveSessionRefreshKeepChanges</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testRemoveSessionRefreshKeepChanges</value>
+      <value/>
+      <value>tests</value>
+      <value>45d86770-083b-413f-ae99-cc4c422622ad</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="prop" sv:type="string" sv:multi-valued="0"&gt;&lt;sv:value length="3"&gt;Old&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>311</value>
+    </row>
+    <row>
+      <value>314</value>
+      <value>/tests_write_combined_manipulation/testRemoveSessionRefreshKeepChanges/child</value>
+      <value>/tests_write_combined_manipulation/testRemoveSessionRefreshKeepChanges</value>
+      <value>child</value>
+      <value/>
+      <value>tests</value>
+      <value>bcb2553c-71bd-4dc7-b68b-0226ede79d4b</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>312</value>
+    </row>
+    <row>
+      <value>315</value>
+      <value>/tests_write_combined_manipulation/testRemoveOtherSessionRefreshKeepChanges</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testRemoveOtherSessionRefreshKeepChanges</value>
+      <value/>
+      <value>tests</value>
+      <value>59e8def4-a173-4922-a045-b23504b8c804</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="prop" sv:type="string" sv:multi-valued="0"&gt;&lt;sv:value length="3"&gt;Old&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>313</value>
+    </row>
+    <row>
+      <value>316</value>
+      <value>/tests_write_combined_manipulation/testRemoveOtherSessionRefreshKeepChanges/child</value>
+      <value>/tests_write_combined_manipulation/testRemoveOtherSessionRefreshKeepChanges</value>
+      <value>child</value>
+      <value/>
+      <value>tests</value>
+      <value>0fbd5774-d9b2-41ef-9b99-6624efb152c4</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="childprop" sv:type="string" sv:multi-valued="0"&gt;&lt;sv:value length="8"&gt;whatever&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>314</value>
+    </row>
+    <row>
+      <value>317</value>
+      <value>/tests_write_combined_manipulation/testRemoveOtherSessionRefreshKeepChanges/childnode</value>
+      <value>/tests_write_combined_manipulation/testRemoveOtherSessionRefreshKeepChanges</value>
+      <value>childnode</value>
+      <value/>
+      <value>tests</value>
+      <value>5b064134-9a1b-4c24-b019-6749c9133695</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>315</value>
+    </row>
+    <row>
+      <value>318</value>
+      <value>/tests_write_combined_manipulation/testMoveSessionRefresh</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testMoveSessionRefresh</value>
+      <value/>
+      <value>tests</value>
+      <value>30e6f4eb-5f07-46c1-9d0a-3084b687c0ef</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>316</value>
+    </row>
+    <row>
+      <value>319</value>
+      <value>/tests_write_combined_manipulation/testMoveSessionRefresh/src</value>
+      <value>/tests_write_combined_manipulation/testMoveSessionRefresh</value>
+      <value>src</value>
+      <value/>
+      <value>tests</value>
+      <value>5a0745fd-e33f-45ba-a24f-e3ea7ca09d1a</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>317</value>
+    </row>
+    <row>
+      <value>320</value>
+      <value>/tests_write_combined_manipulation/testMoveSessionRefresh/src/child</value>
+      <value>/tests_write_combined_manipulation/testMoveSessionRefresh/src</value>
+      <value>child</value>
+      <value/>
+      <value>tests</value>
+      <value>488ff0d5-2775-4611-87a3-941a242e4740</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>4</value>
+      <value>318</value>
+    </row>
+    <row>
+      <value>321</value>
+      <value>/tests_write_combined_manipulation/testMoveSessionRefresh/target</value>
+      <value>/tests_write_combined_manipulation/testMoveSessionRefresh</value>
+      <value>target</value>
+      <value/>
+      <value>tests</value>
+      <value>abf13c7f-93dd-4e16-a142-06835fe41907</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>319</value>
+    </row>
+    <row>
+      <value>322</value>
+      <value>/tests_write_combined_manipulation/testMoveSessionRefreshKeepChanges</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testMoveSessionRefreshKeepChanges</value>
+      <value/>
+      <value>tests</value>
+      <value>9bed00b7-1a96-4b2e-b4a2-fa8b97a916e7</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>320</value>
+    </row>
+    <row>
+      <value>323</value>
+      <value>/tests_write_combined_manipulation/testMoveSessionRefreshKeepChanges/src</value>
+      <value>/tests_write_combined_manipulation/testMoveSessionRefreshKeepChanges</value>
+      <value>src</value>
+      <value/>
+      <value>tests</value>
+      <value>8b2c5b6c-4b3d-4e42-8733-d4f08d738d8b</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>321</value>
+    </row>
+    <row>
+      <value>324</value>
+      <value>/tests_write_combined_manipulation/testMoveSessionRefreshKeepChanges/src/child</value>
+      <value>/tests_write_combined_manipulation/testMoveSessionRefreshKeepChanges/src</value>
+      <value>child</value>
+      <value/>
+      <value>tests</value>
+      <value>8849afa2-7155-4c60-ba6f-fc1629443aa4</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>4</value>
+      <value>322</value>
+    </row>
+    <row>
+      <value>325</value>
+      <value>/tests_write_combined_manipulation/testMoveSessionRefreshKeepChanges/target</value>
+      <value>/tests_write_combined_manipulation/testMoveSessionRefreshKeepChanges</value>
+      <value>target</value>
+      <value/>
+      <value>tests</value>
+      <value>de4326db-b54b-45d5-82db-a5794fd2c100</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>3</value>
+      <value>323</value>
+    </row>
+    <row>
+      <value>326</value>
+      <value>/tests_write_combined_manipulation/testAddSessionRefresh</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testAddSessionRefresh</value>
+      <value/>
+      <value>tests</value>
+      <value>d5aef400-ed90-4fee-8147-3d3688576a99</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>324</value>
+    </row>
+    <row>
+      <value>327</value>
+      <value>/tests_write_combined_manipulation/testAddSessionRefreshKeepChanges</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testAddSessionRefreshKeepChanges</value>
+      <value/>
+      <value>tests</value>
+      <value>73c23991-71ef-44f7-9fe9-5fd202c40c8f</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="prop" sv:type="string" sv:multi-valued="0"&gt;&lt;sv:value length="3"&gt;Old&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>325</value>
+    </row>
+    <row>
+      <value>328</value>
+      <value>/tests_write_combined_manipulation/testNodeRevert</value>
+      <value>/tests_write_combined_manipulation</value>
+      <value>testNodeRevert</value>
+      <value/>
+      <value>tests</value>
+      <value>1b6e519d-95db-403a-ab4a-01fb30f5558a</value>
+      <value>nt:unstructured</value>
+      <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="prop" sv:type="string" sv:multi-valued="0"&gt;&lt;sv:value length="3"&gt;Old&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
+</value>
+      <value>2</value>
+      <value>326</value>
+    </row>
+  </table>
+</dataset>
