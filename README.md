@@ -1,4 +1,6 @@
-# Jackalope [![Build Status](https://secure.travis-ci.org/jackalope/jackalope-contentful.png?branch=master)](http://travis-ci.org/jackalope/jackalope-contentful)
+[![Build Status](https://secure.travis-ci.org/electricmaxxx/jackalope-contentful.png?branch=master)](http://travis-ci.org/electricmaxxx/jackalope-contentful)
+
+# Jackalope Contentful
 
 Implementation of the PHP Content Repository API ([PHPCR](http://phpcr.github.io))
 using a relational database to persist data.
@@ -42,7 +44,7 @@ $ ./composer.phar install
 
 ## Create a repository
 
-Create a login on http://prismic.io and follow the instructions there.
+Create a login on https://www.contentful.com/ and follow the instructions there.
 
 ## Enable the commands
 
@@ -91,11 +93,10 @@ Once these steps are done, you can bootstrap the library. A minimalist
 sample code to get a PHPCR session with the contentful backend:
 
 ```php
-$uri = 'https://%s.prismic.io/api';
 $workspace  = 'lesbonneschoses'; // phpcr workspace to use
 
 $factory = new \Jackalope\RepositoryFactoryContentful();
-$repository = $factory->getRepository(array('jackalope.contentful_uri' => $uri));
+$repository = $factory->getRepository(array('jackalope.contentful_access_token' => 'some-token', 'jackalope.contentful_space_id' => 'space-id'));
 
 // dummy credentials to comply with the API
 $credentials = new \PHPCR\SimpleCredentials(null, null);
