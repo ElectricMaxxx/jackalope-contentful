@@ -47,8 +47,8 @@ class ClientTest extends TestCase
 //        }
 
         $this->transport = new Client(new Factory(), $conn);
-        $this->transport->setAccessToken('access-token');
-        $this->transport->setSpaceId('space-id');
+        $this->transport->setAccessToken($GLOBALS['jackalope.contentful_access_token']);
+        $this->transport->setSpaceId($GLOBALS['jackalope.contentful_space_id']);
         $this->repository = new Repository(null, $this->transport);
         $this->session = $this->repository->login(new SimpleCredentials(null, null), $GLOBALS['phpcr.workspace']);
     }

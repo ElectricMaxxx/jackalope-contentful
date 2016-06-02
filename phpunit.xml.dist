@@ -27,6 +27,9 @@
         <var name="phpcr.doctrine.dbal.username" value="jackalope"/>
         <var name="phpcr.doctrine.dbal.password" value=""/>
         <var name="phpcr.doctrine.dbal.dbname" value="phpcr_tests"/>
+
+        <var name="jackalope.contentful_access_token" value="some-token" />
+        <var name="jackalope.contentful_space_id" value="some-space" />
     </php>
 
     <testsuites>

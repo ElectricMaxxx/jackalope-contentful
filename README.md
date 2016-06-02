@@ -36,7 +36,7 @@ $ mkdir my-project
 $ cd my-project
 $ curl -s http://getcomposer.org/installer | php
 $ ./composer.phar init
-$ ./composer.phar require jackalope/jackalope-prismic
+$ ./composer.phar require jackalope/jackalope-contentful
 $ ./composer.phar install
 ```
 
@@ -88,14 +88,14 @@ $ bin/jackalope jackalope:init:dbal
 ```
 
 Once these steps are done, you can bootstrap the library. A minimalist
-sample code to get a PHPCR session with the prismic backend:
+sample code to get a PHPCR session with the contentful backend:
 
 ```php
 $uri = 'https://%s.prismic.io/api';
 $workspace  = 'lesbonneschoses'; // phpcr workspace to use
 
-$factory = new \Jackalope\RepositoryFactoryPrismic();
-$repository = $factory->getRepository(array('jackalope.prismic_uri' => $uri));
+$factory = new \Jackalope\RepositoryFactoryContentful();
+$repository = $factory->getRepository(array('jackalope.contentful_uri' => $uri));
 
 // dummy credentials to comply with the API
 $credentials = new \PHPCR\SimpleCredentials(null, null);
@@ -129,7 +129,7 @@ queries used. To enable logging, provide a logger instance to the repository
 factory:
 
 ```php
-$factory = new \Jackalope\RepositoryFactoryPrismic();
+$factory = new \Jackalope\RepositoryFactoryContentful();
 $logger = new Jackalope\Transport\Logging\DebugStack();
 $options = array(
   'jackalope.uri' => $uri,
@@ -158,16 +158,16 @@ generate the phpdoc.
 
 # Running the tests
 
-Jackalope-prismic is integrated with the phpcr-api-tests suite that tests
+Jackalope-contentful is integrated with the phpcr-api-tests suite that tests
 all PHPCR functionality.
 
-If you want to run the tests, please see the [README file in the tests folder](https://github.com/jackalope/jackalope-prismic/blob/master/tests/README.md).
+If you want to run the tests, please see the [README file in the tests folder](https://github.com/jackalope/jackalope-contentful/blob/master/tests/README.md).
 
 
 # Things left to do
 
 The best overview of what needs to be done are the skipped API tests.
-Have a look at [ImplementationLoader](https://github.com/jackalope/jackalope-prismic/blob/master/tests/ImplementationLoader.php)
+Have a look at [ImplementationLoader](https://github.com/jackalope/jackalope-contentful/blob/master/tests/ImplementationLoader.php)
 to see what is currently not working and start hacking :-)
 
 Also have a look at the issue trackers of this project and the base jackalope/jackalope.
@@ -183,4 +183,4 @@ Also have a look at the issue trackers of this project and the base jackalope/ja
 * Lukas Kahwe Smith <smith@pooteeweet.org>
 * Benjamin Eberlei <kontakt@beberlei.de>
 * Daniel Barsotti <daniel.barsotti@liip.ch>
-* [and many others](https://github.com/jackalope/jackalope-prismic/contributors)
+* [and many others](https://github.com/jackalope/jackalope-contentful/contributors)

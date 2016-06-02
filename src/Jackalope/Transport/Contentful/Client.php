@@ -27,11 +27,6 @@ class Client extends BaseTransport implements WorkspaceManagementInterface
     private $valueConverter;
 
     /**
-     * @var Connection
-     */
-    private $conn;
-
-    /**
      * @var CredentialsInterface
      */
     private $credentials;
@@ -60,11 +55,10 @@ class Client extends BaseTransport implements WorkspaceManagementInterface
      * @param FactoryInterface $factory
      * @param Connection       $conn
      */
-    public function __construct(FactoryInterface $factory, Connection $conn)
+    public function __construct(FactoryInterface $factory)
     {
         $this->factory = $factory;
         $this->valueConverter = $this->factory->get('PHPCR\Util\ValueConverter');
-        $this->conn = $conn;
     }
 
     /**
@@ -107,7 +101,7 @@ class Client extends BaseTransport implements WorkspaceManagementInterface
      */
     public function getRepositoryDescriptors()
     {
-        // TODO: Implement getRepositoryDescriptors() method.
+        return [];
     }
 
     /**
