@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/jackalope/jackalope-contentful.png?branch=master)](http://travis-ci.org/jackalope/jackalope-contentful)
+[![Build Status](https://secure.travis-ci.org/electricmaxxx/jackalope-contentful.png?branch=master)](http://travis-ci.org/electricmaxxx/jackalope-contentful)
 
 # Jackalope Contentful
 
