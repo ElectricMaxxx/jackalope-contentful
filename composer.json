@@ -33,7 +33,7 @@
         "phpunit/dbunit": "dev-master"
     },
     "autoload": {
-        "psr-4": {
+        "psr-0": {
             "Jackalope\\": "src/"
         }
     },

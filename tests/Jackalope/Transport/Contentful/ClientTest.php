@@ -1,10 +1,12 @@
 <?php
 
-namespace Jackalope\Transport\DoctrineDBAL;
+namespace Jackalope\Transport\Contentful;
 
-use Doctrine\DBAL\Platforms\SqlitePlatform;
+use Jackalope\Factory;
+use Jackalope\Repository;
 use Jackalope\Test\TestCase;
 use PHPCR\PropertyType;
+use PHPCR\SimpleCredentials;
 use PHPCR\Util\NodeHelper;
 
 class ClientTest extends TestCase
@@ -15,7 +17,7 @@ class ClientTest extends TestCase
     private $transport;
 
     /**
-     * @var \Jackalope\Repository
+     * @var Repository
      */
     private $repository;
 
@@ -29,35 +31,26 @@ class ClientTest extends TestCase
         parent::setUp();
 
         $conn = $this->getConnection();
-        $options = array('disable_fks' => $conn->getDatabasePlatform() instanceof SqlitePlatform);
-        $schema = new RepositorySchema($options, $conn);
-        // do not use reset as we want to ignore exceptions on drop
-        foreach ($schema->toDropSql($conn->getDatabasePlatform()) as $statement) {
-            try {
-                $conn->exec($statement);
-            } catch (\Exception $e) {
-                // ignore
-            }
-        }
+//        $options = array('disable_fks' => $conn->getDatabasePlatform() instanceof SqlitePlatform);
+//        $schema = new RepositorySchema($options, $conn);
+//        // do not use reset as we want to ignore exceptions on drop
+//        foreach ($schema->toDropSql($conn->getDatabasePlatform()) as $statement) {
+//            try {
+//                $conn->exec($statement);
+//            } catch (\Exception $e) {
+//                // ignore
+//            }
+//        }
 
-        foreach ($schema->toSql($conn->getDatabasePlatform()) as $statement) {
-            $conn->exec($statement);
-        }
+//        foreach ($schema->toSql($conn->getDatabasePlatform()) as $statement) {
+//            $conn->exec($statement);
+//        }
 
-        $this->transport = new \Jackalope\Transport\DoctrineDBAL\Client(new \Jackalope\Factory(), $conn);
-        $this->transport->createWorkspace('default');
-
-        $this->repository = new \Jackalope\Repository(null, $this->transport);
-
-        try {
-            $this->transport->createWorkspace($GLOBALS['phpcr.workspace']);
-        } catch (\PHPCR\RepositoryException $e) {
-            if ($e->getMessage() != "Workspace '".$GLOBALS['phpcr.workspace']."' already exists") {
-                // if the message is not that the workspace already exists, something went really wrong
-                throw $e;
-            }
-        }
-        $this->session = $this->repository->login(new \PHPCR\SimpleCredentials("user", "passwd"), $GLOBALS['phpcr.workspace']);
+        $this->transport = new Client(new Factory(), $conn);
+        $this->transport->setAccessToken('access-token');
+        $this->transport->setSpaceId('space-id');
+        $this->repository = new Repository(null, $this->transport);
+        $this->session = $this->repository->login(new SimpleCredentials(null, null), $GLOBALS['phpcr.workspace']);
     }
 
     public function testQueryNodes()

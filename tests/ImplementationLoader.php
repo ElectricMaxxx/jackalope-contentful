@@ -39,7 +39,6 @@ class ImplementationLoader extends \PHPCR\Test\AbstractLoader
         $this->fixturePath  = $fixturePath;
 
         $this->unsupportedChapters = array(
-            'Connecting',
             'Reading',
             'Query',
             'Export',
@@ -136,7 +135,7 @@ class ImplementationLoader extends \PHPCR\Test\AbstractLoader
 
     public function getRepository()
     {
-        $transport = new \Jackalope\Transport\DoctrineDBAL\Client(new \Jackalope\Factory, $this->connection);
+        $transport = new \Jackalope\Transport\Contentful\Client(new \Jackalope\Factory, $this->connection);
         foreach (array($GLOBALS['phpcr.workspace'], $this->otherWorkspacename) as $workspace) {
             try {
                 $transport->createWorkspace($workspace);

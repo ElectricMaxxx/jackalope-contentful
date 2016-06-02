@@ -48,7 +48,7 @@
       <value/>
       <value/>
       <value>tests</value>
-      <value>f458e5c3-6cec-4e9b-a75b-308f615e3961</value>
+      <value>b0eaf908-dc7b-430c-bfad-7f0864ca1635</value>
       <value>nt:unstructured</value>
       <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sv:node xmlns:crx="http://www.day.com/crx/1.0"xmlns:lx="http://flux-cms.org/2.0"xmlns:test="http://liip.to/jackalope"xmlns:mix="http://www.jcp.org/jcr/mix/1.0"xmlns:sling="http://sling.apache.org/jcr/sling/1.0"xmlns:nt="http://www.jcp.org/jcr/nt/1.0"xmlns:fn_old="http://www.w3.org/2004/10/xpath-functions"xmlns:fn="http://www.w3.org/2005/xpath-functions"xmlns:vlt="http://www.day.com/jcr/vault/1.0"xmlns:xs="http://www.w3.org/2001/XMLSchema"xmlns:new_prefix="http://a_new_namespace"xmlns:jcr="http://www.jcp.org/jcr/1.0"xmlns:sv="http://www.jcp.org/jcr/sv/1.0"xmlns:rep="internal" /&gt;</value>
       <value>0</value>
@@ -61,7 +61,7 @@
       <value>tests_general_query</value>
       <value/>
       <value>tests</value>
-      <value>072c44df-4bb3-4273-88d6-3cce50d7b0f7</value>
+      <value>c11170b2-9396-4ba1-a275-127e67f410a7</value>
       <value>nt:unstructured</value>
       <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="15"&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
@@ -76,7 +76,7 @@
       <value>queryNode</value>
       <value/>
       <value>tests</value>
-      <value>83b4aa36-5d72-419c-91f9-865f90ff6bf2</value>
+      <value>5210e668-74c1-4380-975e-1f96603e02ad</value>
       <value>nt:query</value>
       <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;sv:node xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:phpcr="http://www.jcp.org/jcr/phpcr/1.0" xmlns:rep="internal"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="name" sv:multi-valued="0"&gt;&lt;sv:value length="8"&gt;nt:query&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="jcr:language" sv:type="string" sv:multi-valued="0"&gt;&lt;sv:value length="8"&gt;JCR-SQL2&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="jcr:statement" sv:type="string" sv:multi-valued="0"&gt;&lt;sv:value length="69"&gt;&lt;![CDATA[SELECT * FROM [nt:file] WHERE [nt:file].[jcr:mimeType] = "text/plain"]]&gt;&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;
