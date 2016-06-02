@@ -1,10 +1,7 @@
 <?php
 
-namespace Jackalope\Transport;
+namespace Jackalope;
 
-use Jackalope\Factory;
-use Jackalope\FactoryInterface;
-use Jackalope\Repository;
 use Jackalope\Transport\Contentful\Client;
 use PHPCR\RepositoryFactoryInterface;
 
